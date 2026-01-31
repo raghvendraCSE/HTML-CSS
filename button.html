@@ -3,16 +3,25 @@
         background-color: rgb(201, 9, 9);
         border: none;
         height: 36px;
-        width: 105px;
-        
+        width: 105px;        
         text-align: center;
         border-radius: 2px;
         cursor: pointer;
         color: white;
         margin-right: 10px;
+        transition: opacity 1s;
         
         
     }
+    .subscribe-button:hover{
+        opacity: 0.4;
+        
+    }
+    .subscribe-button:active{
+        opacity: 0.2;
+        
+    }
+
     .join-button{
         color: blue;
         border-color: blue;
@@ -22,19 +31,32 @@
         border-width: 1px;
         margin-right: 10px;
         cursor: pointer;
+        transition: background-color 1s , color 1s;
         
+    }
+    .join-button:hover{
+        background-color: blue;
+        color: white;
+    }
+    .join-button:active{
+        opacity: 0.7;
     }
     .twitter-button{
          color: white;
-         background-color: rgba(51, 86, 213, 0.849);
+         background-color: rgba(2, 158, 255, 0.849);
          border-radius :18px; 
          height: 36px;
-         width: 100px;
+         width: 90px;
          border: none;
          font-size: 15px;
          font-weight: bold;
          cursor: pointer;
+         transition: box-shadow 0.15px;
+         
 
+    }
+    .twitter-button :hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
     }
 </style>
 
