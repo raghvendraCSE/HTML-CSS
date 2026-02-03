@@ -1,0 +1,66 @@
+
+    /*CSS follow specificity it means css give priority to more specific  class */
+    p{
+        font-family: Roboto;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: rgb(96, 96, 96);
+    }
+    .video-title{
+        
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic ;
+        width :300px;
+        line-height: 24px;
+        margin-bottom: 5px;
+        
+    }
+
+    .video-stats{
+       
+        font-size: 14px;
+        font-weight: solid;
+        margin-top: 0;
+        color: rgb(96, 96, 96);
+        margin-bottom: 25px;
+        
+        
+    }
+    .video-description{
+        font-size: 14px;
+        
+        width:290px;
+        color: gray;
+        line-height: 20px;
+        margin-bottom: 100px;
+        
+
+
+    }
+    
+    .apple-text{
+        background-color: rgb(227, 65, 64);
+        padding-top: 18px;
+        padding-bottom: 18px;
+        color: white;
+        font-size: 14px;
+        margin: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+        
+
+    }
+    .span-example{
+        
+        margin-left: 10px;
+        
+     }
+    .span-example:hover{
+        cursor: pointer;
+        text-decoration: underline;    
+    }
+    .span-example a{
+        color: inherit;
+        text-decoration: none;
+    }
